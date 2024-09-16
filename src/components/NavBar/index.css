@@ -1,0 +1,38 @@
+.nav-bar-container {
+  background-color: #ffffff33;
+  background-size: cover;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar-title {
+  color: white;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.nav-bar-logo {
+  height: 75px;
+  width: 75px;
+}
+
+.nav-bar-logo-title-alinement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar-score {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.nav-bar-scores-alinement {
+  display: flex;
+  flex-direction: row;
+}

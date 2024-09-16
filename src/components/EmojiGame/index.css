@@ -1,0 +1,36 @@
+.bg-container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  background-size: cover;
+}
+
+.emojies-container-alinement {
+  margin-top: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emojies-container {
+  width: 600px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 767px) {
+  .bg-container {
+    background-image: linear-gradient(#9796f0, #fbc7d4);
+    height: 100vh;
+    background-size: cover;
+  }
+  .emojies-container {
+    width: 700px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
